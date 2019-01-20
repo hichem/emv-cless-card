@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EmvClessCard</string>
+    <string name="servicedesc">EMV Contactless Card Emulation Service</string>
+    <string name="aiddescription">Supported AID</string>
+</resources>

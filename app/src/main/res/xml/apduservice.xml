@@ -1,0 +1,18 @@
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/servicedesc"
+    android:apduServiceBanner="@drawable/icon_mobile_payments"
+    android:requireDeviceUnlock="false" >
+
+    <aid-group
+        android:category="payment"
+        android:description="@string/aiddescription" >
+        <aid-filter android:name="A0000000031010" />
+        <aid-filter android:name="A000000004*" />
+        <aid-filter android:name="A0000000040000" />
+        <aid-filter android:name="A00000000401" />
+        <aid-filter android:name="A0000000041010" />
+        <aid-filter android:name="A0000000421010" /> 
+        <aid-filter android:name="325041592E5359532E4444463031" />
+    </aid-group>
+
+</host-apdu-service>
